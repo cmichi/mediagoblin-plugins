@@ -17,7 +17,7 @@ def setup_plugin():
     pluginapi.register_template_path(os.path.join(PLUGIN_DIR, 'templates'))
 
     pluginapi.register_template_hooks(
-        {"persona_end": "advanced-sampleplugin/template.html"})
+        {"persona_end": "mediagoblin/advanced-sampleplugin/template.html"})
 
 def add_to_global_context(context):
     context['foo'] = "bar"
