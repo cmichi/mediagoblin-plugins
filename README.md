@@ -1,10 +1,10 @@
 # Readme
 
 This is a loose collection of various plugins I write/wrote
-for [GNU Mediagoblin](http://mediagoblin.org) project.
+for the [GNU MediaGoblin](http://mediagoblin.org) project.
 
 A while ago I dumped flickr and deviantart and migrated to
-my own [Mediagoblin instance](http://media.micha.elmueller.net). 
+my own [MediaGoblin instance](http://media.micha.elmueller.net). 
 I have been sitting silently on the developers list since then. 
 I guess it's finally time to start developing :).
 
