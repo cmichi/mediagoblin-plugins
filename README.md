@@ -24,6 +24,8 @@ described in the MediaGoblin documentation.
 
 Piwik is a the free software alternative to Google Analytics.
 This (very simple plugin) inserts your Piwik tracking code right before `</body>`.
+Sure you could also just add the code in the theme directly. But then you
+would have to add it after each update. Using the plugin is a better way.
 
 
 # Helpful links
