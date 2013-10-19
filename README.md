@@ -20,6 +20,11 @@ An advanced version of the
 [sampleplugin](http://mediagoblin.readthedocs.org/en/latest/pluginwriter/quickstart.html)
 described in the MediaGoblin documentation.
 
+## piwik
+
+Piwik is a the free software alternative to Google Analytics.
+This (very simple plugin) inserts your Piwik tracking code right before `</body>`.
+
 
 # Helpful links
 
