@@ -6,3 +6,6 @@ all:
 clean:
 	rm -rf *.egg*
 	rm -f ./advanced-sampleplugin/*.pyc
+
+#uninstall: ?
+

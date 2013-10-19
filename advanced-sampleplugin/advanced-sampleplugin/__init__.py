@@ -14,10 +14,10 @@ def setup_plugin():
     else:
         _log.info('There is no configuration set.')
 
-    pluginapi.register_template_path(os.path.join(PLUGIN_DIR))
+    pluginapi.register_template_path(os.path.join(PLUGIN_DIR, 'templates'))
 
     pluginapi.register_template_hooks(
-        {"persona_end": "template.html"})
+        {"persona_end": "advanced-sampleplugin/template.html"})
 
 
 hooks = {
