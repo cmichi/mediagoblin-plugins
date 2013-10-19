@@ -19,7 +19,11 @@ def setup_plugin():
     pluginapi.register_template_hooks(
         {"persona_end": "advanced-sampleplugin/template.html"})
 
+def add_to_global_context(context):
+    context['foo'] = "bar"
+    return context
 
 hooks = {
-    'setup': setup_plugin
+    'setup': setup_plugin,
+    'template_global_context': add_to_global_context
     }
