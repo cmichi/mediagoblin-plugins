@@ -17,5 +17,7 @@
 #}
 
 {% block piwikblock %}
-	{{ piwik.embeddcode }}
+	{% autoescape false %}
+		{{ piwik.embeddcode }}
+	{% endautoescape %}
 {% endblock %}
