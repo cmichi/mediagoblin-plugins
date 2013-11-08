@@ -18,14 +18,18 @@ MediaGoblin. Some things may still be a little bit wobbly.
 
 An advanced version of the 
 [sampleplugin](http://mediagoblin.readthedocs.org/en/latest/pluginwriter/quickstart.html)
-described in the MediaGoblin documentation.
+described in the MediaGoblin documentation. This one uses template hooks,
+template variables, config files and default configuration.
 
 ## piwik
 
 Piwik is a the free software alternative to Google Analytics.
-This (very simple plugin) inserts your Piwik tracking code right before `</body>`.
-Sure you could also just add the code in the theme directly. But then you
-would have to add it after each update. Using the plugin is a better way.
+This (very simple plugin) inserts your Piwik tracking code right before 
+`</body>`. Sure you could also just add the code in the theme directly. 
+But then you would have to add it after each MediaGoblin update. Using 
+a plugin is more comfortable.
+
+## Flattr
 
 
 # Helpful links
