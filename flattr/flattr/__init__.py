@@ -34,9 +34,11 @@ def setup_plugin():
     pluginapi.register_template_path(os.path.join(PLUGIN_DIR, 'templates'))
 
     pluginapi.register_template_hooks(
-        {"after_media_title": "mediagoblin/flattr/button.html"})
+        {"near_media_title": "mediagoblin/flattr/button.html"})
 
 def add_to_global_context(context):
+    config.title = 'foo'
+    config.description = 'bar'
     context['flattr'] = config
     return context
 
