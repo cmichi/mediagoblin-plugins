@@ -5,16 +5,22 @@ in the upstream MediaGoblin version. I have opened an issue for
 this, but until it is merged you have to add a template hook 
 by yourself:
 
-Edit the file `/mediagoblin/mediagoblin/templates/mediagoblin/user_pages/media.html`:
-In line 70 you will see:
+Edit the file `/mediagoblin/mediagoblin/templates/mediagoblin/user_pages/media.html`,
+in line 70 you will see:
 
 	<h2 class="media_title">
 	{{ media.title }}
 	</h2>
 
-Just add this code after the `</h2>`:
+Just add this line after the `</h2>`:
 
 	{% template_hook("near_media_title") %}
+
+To install the plugin enter your `mediagoblin` folder and execute:
+
+	git clone https://github.com/cmichi/mediagoblin-plugins.git
+	cd mediagoblin-plugins/flattr/
+	make
 
 To configure the plugin add to the `[plugins]` section of your
 `mediagoblin_local.ini`:
