@@ -27,7 +27,6 @@ def add_to_global_context(context):
     context['foo'] = "tadaaa"
     return context
 		     
-
 hooks = {
     'setup': setup_plugin,
     'template_global_context': add_to_global_context

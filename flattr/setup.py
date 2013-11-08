@@ -1,4 +1,3 @@
-{#
 # GNU MediaGoblin -- federated, autonomous media hosting
 # Copyright (C) 2011, 2012 MediaGoblin contributors.  See AUTHORS.
 #
@@ -14,9 +13,14 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#}
 
-{% block geolocation_map %}
-	FOOBAR
-	{{ foo }}
-{% endblock %}
+from setuptools import setup, find_packages
+
+setup(
+	name='flattr',
+	version='0.1',
+	packages=find_packages(),
+	include_package_data=True,
+	install_requires=[],
+	license='AGPLv3',
+	)
