@@ -29,7 +29,10 @@ This (very simple plugin) inserts your Piwik tracking code right before
 But then you would have to add it after each MediaGoblin update. Using 
 a plugin is more comfortable.
 
-## Flattr
+## flattr
+
+Adds a [Flattr](http://flattr.com/) auto-submit button to each media entry 
+detail view.
 
 
 # Helpful links
