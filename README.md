@@ -1,18 +1,21 @@
 # Readme
 
-This is a loose collection of various plugins I write/wrote
+This repository is a loose collection of various plugins I write/wrote
 for the [GNU MediaGoblin](http://mediagoblin.org) project.
-
 A while ago I dumped flickr and deviantart and migrated to
 my own [MediaGoblin instance](http://media.micha.elmueller.net). 
-I have been sitting silently on the developers list since then. 
-I guess it's finally time to start developing :).
 
-**Project status:** I am just starting out writing stuff for
+**Project status:** I am merely starting out writing stuff for
 MediaGoblin. Some things may still be a little bit wobbly.
+Currently this code has only been tested with v0.7.1.
 
 
 # Plugins
+
+In order to install a plugin execute `../../bin/python2.7 setup.py develop`
+in its folder. Afterwards execute `./bin/gmg dbupdate` in the MediaGoblin
+root.
+
 
 ## advanced-sampleplugin
 
@@ -37,7 +40,7 @@ detail view.
 
 # Helpful links
 
-[http://mediagoblin.readthedocs.org/en/v0.5.1/pluginwriter/api.html](MediaGoblin Plugin API)
+[MediaGoblin Plugin API](http://mediagoblin.readthedocs.org/en/v0.5.1/pluginwriter/api.html)
 
 
 # License
